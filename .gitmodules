@@ -1,0 +1,3 @@
+[submodule "GeNT"]
+	path = GeNT
+	url = https://github.com/ropelews/GeNT.git
