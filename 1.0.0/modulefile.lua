@@ -1,49 +1,40 @@
 --
--- browsh 1.6.4 modulefile
+-- gent 1.0.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
--- "Category: Other"
--- "Description: Browsh is a fully-modern text-based browser."
+-- "Category: Biological Sciences"
+-- "Description: This program computes the cross entropy for groups of sequences that have been assigned to groups on the basis of biochemical, physiological, or other biological property. The sequence assignments are cross-validated, again by the cross entropy measure, to check for problems with the alignment or group assignment."
 -- "Keywords: singularity utilities"
 
-whatis("Name: browsh")
-whatis("Version: 1.6.4")
-whatis("Category: Other")
+whatis("Name: gent")
+whatis("Version: 1.0.0")
+whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
-whatis("Description: Browsh is a fully-modern text-based browser.")
+whatis("Description: This program computes the cross entropy for groups of sequences that have been assigned to groups on the basis of biochemical, physiological, or other biological property. The sequence assignments are cross-validated, again by the cross entropy measure, to check for problems with the alignment or group assignment. ")
 
 help([[
-browsh 1.6.4
-------------
+gent 1.0.0
+-----------
+This program computes the cross entropy for groups of sequences that have been assigned to groups on the basis of biochemical, physiological, or other biological property. The sequence assignments are cross-validated, again by the cross entropy measure, to check for problems with the alignment or group assignment.  Sequences that were initially identified as "unclassified" are compared to all of the groups using position specific log-odds scores as described by Henikoff and Henikoff. Positions in the aligned sequences that are important for determining group membership are identified by having a high entropy for the entire alignment and a high entropy for one or more specific groups.
 
 Description
 -----------
-Browsh is a fully-modern text-based browser.
-
 To load the module, type
 
-> module load browsh/1.6.4
+> module load gent/1.0.0
 
 To unload the module, type
 
-> module unload browsh/1.6.4
-
-Documentation
--------------
-https://www.brow.sh/
-
-For help, type
-
-> browsh --help
+> module unload gent/1.0.0
 
 Repository
 ----------
 Tools included in this module are
 
-* browsh
+* gent
 ]])
 
-local package = "browsh"
-local version = "1.6.4"
+local package = "gent"
+local version = "1.0.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
