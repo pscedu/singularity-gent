@@ -8,3 +8,10 @@ if [ -f $IMAGE ]; then
 fi
 
 sudo singularity build $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
+

@@ -8,3 +8,9 @@ if [ -f $IMAGE ]; then
 fi
 
 singularity build --remote $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
