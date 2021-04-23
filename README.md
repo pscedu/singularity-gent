@@ -1,4 +1,5 @@
 # singularity-gent
+[![Build Status](https://www.travis-ci.com/icaoberg/singularity-gent.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-gent)
 
 Singularity recipe for GeNT.
 
