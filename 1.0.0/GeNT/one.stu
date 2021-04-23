@@ -1,0 +1,25 @@
+
+Sequence|mrtlwimavllvgvkghlmqfenmikkvtgrsgiwwygsygcycgkggegrpqdpsdrcc
+Entropy3|                                                            
+EntropyG|                          3        3              3 3       
+EntropyF|                                         3 3              33
+EntropyT|    2     3     3 2      31    22211  3      1  2 1 1 33    
+
+Sequence|fvhdccygkvtgcdpkddfyiyssengdivcgdddlckkevcecdkaaaicfrdnmdtyq
+Entropy3|                                   g                        
+EntropyG|                       3           2                        
+EntropyF|     3      3                 3     3    3 3      3         
+EntropyT|2   3    2   3 32 1 2  1   1    2  1 3                     3
+
+Sequence|nkywfypasnckeesepc                                          
+Entropy3|                                                            
+EntropyG|   3     3                                                  
+EntropyF|          3                                                 
+EntropyT|   1332121                                                  
+
+
+//Entropy3:  Q's=    0,  F's=    0,  f's=    0,  G's=    0,  g's=    1
+//EntropyG:  1's=    0,  2's=    0,  3's=    1
+//EntropyF:  1's=    0,  2's=    1,  3's=    7
+//EntropyT:  1's=    1,  2's=    2,  3's=    7
+//There are   138 residues in sequence: BAA01568       
