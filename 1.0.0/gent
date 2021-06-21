@@ -14,4 +14,8 @@ if [ -d /local ]; then
 	OPTIONS=$OPTIONS" -B /local"
 fi
 
+if [ -f GroupClassifier.Out ]; then
+	rm -f GroupClassifier.Out
+fi
+
 singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
