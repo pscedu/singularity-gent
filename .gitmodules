@@ -1,6 +1,0 @@
-[submodule "GeNT"]
-	path = GeNT
-	url = https://github.com/ropelews/GeNT.git
-[submodule ".travis"]
-	path = .travis
-	url = git@github.com:icaoberg/.travis.git
