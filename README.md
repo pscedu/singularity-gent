@@ -1,11 +1,11 @@
-# singularity-gent
 ![Status](https://github.com/pscedu/singularity-gent/actions/workflows/main.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-gent)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-gent)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-gent)
 ![License](https://img.shields.io/github/license/pscedu/singularity-gent)
 
-Singularity recipe for GeNT.
+# singularity-gent
+Singularity recipe for [GeNT](https://github.com/icaoberg/gent).
 
 ## Building the image using the recipe
 
