@@ -17,7 +17,7 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
