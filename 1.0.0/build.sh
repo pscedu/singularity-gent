@@ -3,7 +3,6 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-
 IMAGE=singularity-gent-1.0.0.sif
 DEFINITION=Singularity
 
